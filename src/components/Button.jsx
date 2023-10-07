@@ -1,7 +1,9 @@
 import React from "react";
 import loader from '../assets/loader.svg'
+import { useGlobalContext } from "../context/useContext";
 
-const Button = ({loading, getQuote}) => {
+const Button = () => {
+    const {loading, getQuote} = useGlobalContext()
   return (
     <div>
       <button className="btn" onClick={getQuote}>

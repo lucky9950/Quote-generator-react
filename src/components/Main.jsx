@@ -1,9 +1,11 @@
 import React from "react";
 import { FaQuoteLeft } from 'react-icons/fa'
 import { FaQuoteRight } from 'react-icons/fa'
+import { useGlobalContext } from "../context/useContext";
 
-const Main = ({data, loading}) => {
-    const {author, content} = data
+const Main = () => {
+    const { data, loading } = useGlobalContext()
+    const { author, content } = data
   return (
     <div>
       <h1 className="heading">Random Quote Generator</h1> 
