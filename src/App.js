@@ -6,10 +6,12 @@ import Dev from "./components/Dev";
 
 function App() {
   return (
+    <div className="App">
     <div className="container">
       <Main />
       <Button />
       <Dev />
+    </div>
     </div>
   );
 }
