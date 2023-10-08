@@ -1,12 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App{
   margin: 0;
-  display: flex;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
   background: linear-gradient(to left bottom,lightblue,lightgreen,lightblue,lightgreen );
   font-family: 'Courier New', Courier, monospace;
-
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 .container{
